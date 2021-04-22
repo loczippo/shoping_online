@@ -1,0 +1,228 @@
+:root {
+  --primary-color: #FF7300;
+}
+
+img[alt="www.000webhost.com"] {
+  display: none;
+}
+
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body, html {
+  width: 100%;
+  height: 100%;
+  font-size: 17.5px;
+}
+
+.form-group span {
+  color: red;
+}
+
+.form-group label {
+  /* text-transform: uppercase; */
+  /* font-size: 0.9rem; */
+  word-spacing: -1px;
+}
+
+.form-check-label {
+}
+
+.form-login-forgotpwd-text {
+  padding-left: 10px;
+}
+
+.form-login-forgotpwd, span {
+  text-decoration: none !important;
+}
+
+/* .img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin: auto;
+  border: 5px solid #9999;
+} */
+
+.list-group, .text-light, a {
+  margin: auto;
+  margin-top: 10px;
+  text-decoration: none !important;
+  color: #FF8201;
+}
+
+.text-link:hover {
+  color: var(--primary-color) !important;
+}
+.btn-dark {
+  background-color: #FF8201 !important;
+  color: black;
+}
+
+.btn-dark:hover {
+  background-color: var(--primary-color) !important;
+  color: black;
+}
+
+/* SIDEBAR */
+#wrapper {
+    overflow-x: hidden;
+ }
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+#page-content-wrapper {
+  /* background-image: url('./images/banner-bg.jpg') */
+}
+
+.sidebar-heading {
+  font-size: 22px;
+  font-weight: 400;
+  color: #FF7200;
+  margin-top: 15px;
+  text-transform: uppercase;
+  /* margin-left: 45px; */
+}
+
+/* CONTAINER-FLUID */
+
+.container-fluid h1 {
+  margin-top: 30px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.carousel-item img {
+  margin-top: -215px;
+  width: 210px;
+  height: 120px;
+}
+.container-fluid h2 {
+  font-size: 2.7rem;
+}
+
+/* a */
+.price {
+  display: flex;
+}
+
+.price h6 {
+  margin-left: 6px;
+}
+
+.price strike {
+  color: rgba(17, 17, 17, 0.726);
+}
+
+.margin {
+  margin-top: 20px;
+}
+
+.margin h4 {
+  font-weight: bold;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 10px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #FF7200; /* Set a background color */
+  color: black; /* Text color */
+  font-weight: 500;
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 13px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 15px; /* Increase font size */
+  margin-right: -30px;
+}
+
+#myBtn:hover {
+  background-color: var(--primary-color); /* Add a dark-grey background on hover */
+}
+
+#myBtn {
+    margin-top: 25px;
+} 
+
+/*  */
+
+/* .container h2 {
+  color: white !important;
+}
+.table-bordered th, td {
+  color: white;
+} */
+
+/* .dathang {
+  border-radius: 2% !important;
+} */
+
+
+.khoangcach {
+  margin-top: 8px;
+  margin-bottom: -10px;
+}
+
+@media (min-width: 768px) {
+  
+  .carousel-item img {
+    margin-top: -330px;
+    width: 510px;
+    height: 320px;
+    /* margin-right: 10px; */
+  }
+  .container-fluid h1 {
+    margin-top: 30px;
+    font-size: 6rem;
+    font-weight: 700;
+  }
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper { 
+    margin-left: -15rem;
+  }
+}
+@media (max-width: 768px) {
+  .margin1 {
+    margin-left: -9px;
+  }
+
+  .margin {
+    margin-top: 20px;
+  }
+}
